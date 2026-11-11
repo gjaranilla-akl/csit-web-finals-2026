@@ -1,11 +1,747 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Online Portfolio</h1>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My<span>Portfolio.</span></h2>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#values">Core Values</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="intro">HELLO, WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Gazelle Jam F. Jaranilla</span></h1>
+            <h2>Aspiring IT Professional</h2>
+            <p>
+                An IT student passionate about
+                technology, programming, and creating innovative
+                digital solutions.
+            </p>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="My Profile Photo">
+        </div>
+    </section>
+
+    <!-- 1. PROFILE AND BIOGRAPHY -->
+    <section id="about" class="section">
+        <h2 class="section-title">Profile & Biography</h2>
+
+        <div class="about-container">
+            <img src="profile.jpg" alt="Profile Picture">
+
+            <div class="about-text">
+                <h3>About Me</h3>
+                <p>
+                    Hello! My name is Gazelle Jam F. Jaranilla, and I am currently
+                    an Information Technology student
+                    at University of San Agustin. I am an enthusiastic and
+                    motivated student with a strong interest in
+                    technology and digital innovation. I enjoy
+                    exploring programming languages, developing
+                    websites, and learning how computer systems work.
+                    My passion is to improve my technical knowledge
+                    and use technology to solve real-world problems.
+                    I believe that continuous learning, creativity,
+                    and determination are important in becoming a
+                    successful IT professional. Through my academic
+                    journey and personal projects, I aim to develop
+                    my programming abilities, gain practical
+                    experience, and prepare myself for future
+                    opportunities in the technology industry.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ACADEMIC BACKGROUND -->
+    <section id="education" class="section alternate">
+        <h2 class="section-title">Academic Background</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h3>College Education</h3>
+                <h4>Bachelor of Science in Information Technology</h4>
+                <p>University of San Agustin</p>
+                <p>2026 – Present</p>
+                <p>Expected Graduation: 2030</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Senior High School</h3>
+                <h4>GAS Strand</h4>
+                <p>Lala National High School</p>
+                <p>2022 – 2024</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Relevant Coursework</h3>
+                <ul>
+                    <li>Introduction to Programming</li>
+                    <li>Computer Programming</li>
+                    <li>Web Development</li>
+                    <li>Database Management</li>
+                    <li>Computer Systems and Organization</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3. ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+        <h2 class="section-title">Notable Achievements</h2>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                <span class="achievement-icon">🏆</span>
+                <h3>Academic Achievement</h3>
+                <p>Include your academic awards, honors, or recognition here.</p>
+            </div>
+
+            <div class="achievement-card">
+                <span class="achievement-icon">📜</span>
+                <h3>Certifications</h3>
+                <p>Include programming certificates or completed online courses.</p>
+            </div>
+
+            <div class="achievement-card">
+                <span class="achievement-icon">💻</span>
+                <h3>Programming Experience</h3>
+                <p>Participated in programming activities and completed academic projects.</p>
+            </div>
+
+            <div class="achievement-card">
+                <span class="achievement-icon">🤝</span>
+                <h3>Leadership & Teamwork</h3>
+                <p>Include your organization memberships and leadership experiences.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. SKILLS -->
+    <section id="skills" class="section alternate">
+        <h2 class="section-title">Skillset & Programming Languages</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-box">
+                <h3>Technical Skills</h3>
+
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress"><span style="width: 85%"></span></div>
+                </div>
+
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress"><span style="width: 75%"></span></div>
+                </div>
+
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress"><span style="width: 60%"></span></div>
+                </div>
+
+                <div class="skill">
+                    <p>C++</p>
+                    <div class="progress"><span style="width: 65%"></span></div>
+                </div>
+
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="progress"><span style="width: 55%"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <h3>Soft Skills</h3>
+                <ul class="soft-skills">
+                    <li>✔ Communication</li>
+                    <li>✔ Teamwork and Collaboration</li>
+                    <li>✔ Problem-Solving</li>
+                    <li>✔ Time Management</li>
+                    <li>✔ Adaptability</li>
+                    <li>✔ Critical Thinking</li>
+                    <li>✔ Creativity</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. PROJECTS -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects & Researches</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="https://placehold.co/600x350/172554/ffffff?text=Project+1"
+                     alt="Student Portfolio Project">
+
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A personal website designed to showcase my
+                        background, educational achievements, skills,
+                        and projects. Its objective is to establish
+                        an online professional identity.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#home" class="project-link">View Portfolio</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://placehold.co/600x350/172554/ffffff?text=Project+2"
+                     alt="Student Management System">
+
+                <div class="project-info">
+                    <h3>Student Management System</h3>
+                    <p>
+                        A basic application concept designed to
+                        organize student information and academic
+                        records. Its objective is to make student
+                        information easier to manage.
+                    </p>
+                    <p><strong>Technologies:</strong> C++, Database</p>
+                    <a href="#projects" class="project-link">Project Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. WORK ETHICS AND CORE VALUES -->
+    <section id="values" class="section alternate">
+        <h2 class="section-title">Work Ethics & Core Values</h2>
+
+        <div class="values-container">
+
+            <div class="value-card">
+                <h3>🎯 Responsibility</h3>
+                <p>I take responsibility for my tasks and complete them with dedication.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>⏰ Punctuality</h3>
+                <p>I value time and strive to meet deadlines and commitments.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>📚 Continuous Learning</h3>
+                <p>I continuously seek opportunities to improve my knowledge and skills.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>🤝 Collaboration</h3>
+                <p>I respect different ideas and work effectively with others.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>💡 Adaptability</h3>
+                <p>I embrace challenges and adapt to new technologies and situations.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>💻 Quality Work</h3>
+                <p>I aim to write organized, readable, and maintainable code.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>Your Name</h3>
+        <p>Computer Science / IT Student | Aspiring IT Professional</p>
+        <p>Email: yourname@email.com</p>
+        <p class="copyright">
+            © 2026 Your Name. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: #f1f5f9;
+    line-height: 1.7;
+}
+
+/* NAVIGATION */
+header {
+    background: #111c33;
+    padding: 15px 7%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 90vh;
+    padding: 70px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.intro {
+    color: #38bdf8;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+.hero h2 {
+    font-size: 25px;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+    transform: translateY(-3px);
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+}
+
+/* GENERAL SECTION */
+.section {
+    padding: 80px 10%;
+}
+
+.alternate {
+    background: #17243b;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #38bdf8;
+}
+
+/* PROFILE */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-container img {
+    width: 230px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    color: #cbd5e1;
+    text-align: justify;
+}
+
+/* EDUCATION */
+.timeline {
+    max-width: 750px;
+    margin: auto;
+    border-left: 3px solid #38bdf8;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #38bdf8;
+    border-radius: 50%;
+    position: absolute;
+    left: -39px;
+    top: 8px;
+}
+
+.timeline-item h3 {
+    color: #38bdf8;
+    font-size: 21px;
+}
+
+.timeline-item h4 {
+    margin: 5px 0;
+}
+
+.timeline-item p,
+.timeline-item li {
+    color: #cbd5e1;
+}
+
+.timeline-item ul {
+    padding-left: 20px;
+}
+
+/* ACHIEVEMENTS */
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.achievement-card {
+    background: #17243b;
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.achievement-card:hover {
+    transform: translateY(-7px);
+}
+
+.achievement-icon {
+    font-size: 35px;
+}
+
+.achievement-card h3 {
+    color: #38bdf8;
+    margin: 12px 0;
+}
+
+/* SKILLS */
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.skill-box {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.skill-box h3 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 18px;
+}
+
+.skill p {
+    margin-bottom: 5px;
+}
+
+.progress {
+    background: #334155;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress span {
+    display: block;
+    height: 100%;
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+.soft-skills {
+    list-style: none;
+}
+
+.soft-skills li {
+    margin-bottom: 12px;
+    color: #cbd5e1;
+}
+
+/* PROJECTS */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    background: #17243b;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-info h3 {
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+.project-info p {
+    color: #cbd5e1;
+    margin-bottom: 12px;
+}
+
+.project-link {
+    display: inline-block;
+    color: #38bdf8;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* CORE VALUES */
+.values-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.value-card {
+    background: #0f172a;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.value-card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    color: #cbd5e1;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #080f1e;
+}
+
+footer h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #94a3b8;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: #111c33;
+        padding: 20px 7%;
+        gap: 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .achievement-grid,
+    .skills-container,
+    .project-grid,
+    .values-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 60px 6%;
+    }
+
+    .hero {
+        padding: 50px 6%;
+    }
+
+    .hero-image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
